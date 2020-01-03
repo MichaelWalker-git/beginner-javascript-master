@@ -10,9 +10,13 @@ function handleClick() {
   console.log('IT GOT CLICKED!!!! 🐛');
 }
 
-butts.addEventListener('click', handleClick);
-coolButton.addEventListener('click', handleClick);
+const hooray = () => console.log('HOORAY!');
+
+butts.addEventListener('click', function() {
+  console.log('Iam an anon!');
+});
+coolButton.addEventListener('click', hooray);
 
 // remove eventslistener
 // remove event and function its listening for
-// butts.removeEventListener('click', handleClick);
+butts.removeEventListener('click', handleClick);
