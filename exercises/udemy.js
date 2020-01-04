@@ -18,4 +18,4 @@ console.log(fullName[2]);
 console.log(fullName.length);
 
 // sting methods
-test test
+test test removing ListeningStateChangedEvent
