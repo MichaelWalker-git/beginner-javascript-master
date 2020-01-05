@@ -1,3 +1,4 @@
+/* eslint-disable */
 // // strings
 // console.log('it works!');
 
@@ -40,8 +41,8 @@
 
 // console.log(result);
 
-const radius = 10;
-const pi = 3.14;
+// const radius = 10;
+// const pi = 3.14;
 
 // console.log(radius, pi);
 
@@ -52,5 +53,68 @@ const pi = 3.14;
 
 // Order of operations PEMDAS
 
-const result = pi * radius ** 2;
-console.log(result);
+// let result = 5 * (10 * 3)**2;
+
+// console.log(result);
+
+// // likes = likes + 1;
+// likes += 1;
+// // likes++;
+
+// console.log(likes);
+
+// NaN not a number
+// console.log(5 / 'hello');
+
+// const likes = 10;
+
+// // concatenation
+// const result = `the blog has ${likes} likes`;
+// console.log(result);
+
+// template strings or template literal
+
+const title = 'Best reads of 2019';
+const author = 'Stephen King';
+const likes = 1000;
+
+// concatenation way
+// const result =
+//   'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
+
+//   console.log(result);
+
+// // template string way (use back ticks for this)
+// const result = `The blog called ${title} by ${author} has ${likes} likes`;
+// console.log(result);
+
+// creating html templates
+// let html = `
+//     <h2>${title}</h2>
+//     <p>By ${author}</p>
+//     <span>This blog has ${likes} likes</span>
+//     `;
+// console.log(html);
+
+let ninjas = ['ryu', 'akira', 'ken'];
+
+// ninjas[1] = 'ken';
+// console.log(ninjas[1]);
+
+// let ages = [20,25,30,35];
+// console.log(ages[2]);
+
+// let random = ['shaun', 'crystal', 30, 31];
+// console.log(random);
+
+// console.log(ninjas.length);
+
+// array methods
+
+// let result = ninjas.join('');
+// let result = ninjas.indexOf('akira'); finds out what place in index in array
+// join two things together
+// let result = ninjas.concat(['ken', 'crystal']); 
+// let result = ninjas.push('ken'); 
+// result = ninjas.pop()
+// console.log(result);
