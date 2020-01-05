@@ -38,11 +38,9 @@
 
 // // let result = email.replace('n', 'r');
 
-
-
 // console.log(result);
 
-let radius = 10;
+const radius = 10;
 const pi = 3.14;
 
 // console.log(radius, pi);
@@ -52,5 +50,7 @@ const pi = 3.14;
 // console.log(10 / 2);
 // let result = radius % 3;
 
-let result = pi * radius**2
+// Order of operations PEMDAS
+
+const result = pi * radius ** 2;
 console.log(result);
