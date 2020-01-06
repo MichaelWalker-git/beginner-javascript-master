@@ -20,3 +20,16 @@ coolButton.addEventListener('click', hooray);
 // remove eventslistener
 // remove event and function its listening for
 butts.removeEventListener('click', handleClick);
+
+// listen on multiple items
+const buyButtons = document.querySelectorAll('button.buy');
+
+function buyItem() {
+  console.log('BUYING ITEM');
+}
+
+// console.log(buyButtons);
+buyButtons.forEach(function(buyButton) {
+  console.log('HEY')
+  console.log(buyButton);
+});
