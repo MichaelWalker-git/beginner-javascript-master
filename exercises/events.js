@@ -24,12 +24,20 @@ butts.removeEventListener('click', handleClick);
 // listen on multiple items
 const buyButtons = document.querySelectorAll('button.buy');
 
-function buyItem() {
-  console.log('BUYING ITEM');
+function handleBuyButtonClick() {
+  buy
 }
 
-// console.log(buyButtons);
-buyButtons.forEach(function(buyButton) {
-  console.log('HEY')
-  console.log(buyButton);
-});
+
+
+
+// function buyItem() {
+//   console.log('BUYING ITEM');
+// }
+
+// // console.log(buyButtons);
+// buyButtons.forEach(function(buyButton) {
+//   console.log('Binding the buy button');
+//   buyButton.addEventListener('click', buyItem);
+// });
+
