@@ -25,11 +25,8 @@ butts.removeEventListener('click', handleClick);
 const buyButtons = document.querySelectorAll('button.buy');
 
 function handleBuyButtonClick() {
-  buy
+  buy;
 }
-
-
-
 
 // function buyItem() {
 //   console.log('BUYING ITEM');
@@ -40,4 +37,3 @@ function handleBuyButtonClick() {
 //   console.log('Binding the buy button');
 //   buyButton.addEventListener('click', buyItem);
 // });
-
