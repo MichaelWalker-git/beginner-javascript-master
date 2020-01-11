@@ -11,6 +11,7 @@ const shakeButton = document.querySelector('.shake');
 const { width, height } = canvas;
 
 // create random x and y starting point on the canvas
+// Math.floor gives you the lower level value of a number 
 const x = Math.floor(Math.random() * width);
 const y = Math.floor(Math.random() * width);
 
