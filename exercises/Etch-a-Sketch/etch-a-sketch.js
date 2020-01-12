@@ -61,7 +61,8 @@ function draw({ key }) {
     default:
       break;
   }
-  ctx.lineTo(x, y);3
+  ctx.lineTo(x, y);
+  3;
   ctx.stroke();
 }
 
@@ -77,10 +78,22 @@ function handleKey(e) {
   }
 }
 // clear /shke function
+// when clearCanvas is run we add the class, then we listen for the Animation to be over then we remove it.
 function clearCanvas() {
   canvas.classList.add('shake');
+  //   this clears the canvas
+  ctx.clearRect(0, 0, width, height);
+  canvas.addEventListener(
+    'animationend',
+    function() {
+      console.log('done the shake');
+      canvas.classList.remove('shake');
+    },
+    { once: true }
+  );
 }
 // listen for arrow keys
 // if you wanna listen site wide you use window
 // *listner is listening for 'keydown', then runs handleKey
 window.addEventListener('keydown', handleKey);
+shakeButton.addEventListener('click', clearCanvas);
